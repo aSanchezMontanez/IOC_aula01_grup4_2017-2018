@@ -70,12 +70,12 @@ public class app_club_natació {
         // Definim variables String per al print que mostrem al final
         String genereresultat = null, categoriaresultat = null, clubresultat = null;
 
-        // Variables necessàries pel "Projecte part 2" 
+        // Variables necessàries per la part 2 
         int intents = 0, continuar = 0;
         boolean dadaCorrecta = true;
         boolean afegirParticipant;
 
-        // ARRAYS necessàries pel "Projecte part 3"
+        // ARRAYS necessàries per la part 3
         int[] id = new int[MAX_PARTICIPANTS];
         int[] naixement = new int[MAX_PARTICIPANTS];
         int[] genere = new int[MAX_PARTICIPANTS];
@@ -86,7 +86,7 @@ public class app_club_natació {
         // Index de l'array, a la posició número 0 (1)
         int i = 0;
 
-        // Variables necessàries pel "Projecte part 3"
+        // Variables necessàries per la part 3
         int ordenar = 0, aux1 = 0;
         
         System.out.print("Entrada de dades del participant --------------------------------\n");
